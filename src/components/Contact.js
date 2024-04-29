@@ -20,7 +20,7 @@ function Contact() {
         </Col>
         <Col className="contact-container">
           <text className="contact-title">
-            Now you want my services and you don't know how to reach me...
+            Interested in my top-notch services but not sure how to reach me?!
           </text>
           <Row style={{ justifyContent: "space-evenly" }}>
             <a
