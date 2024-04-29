@@ -1,0 +1,27 @@
+.work {
+    flex: 1;
+    padding-top: 70px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.work-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1100px;
+    padding: 5px;
+}
+
+.work-image {
+    height: 80vh;
+    width: auto;
+}
+
+.text {
+    color: white;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 2px 2px 3px darkgoldenrod;
+}

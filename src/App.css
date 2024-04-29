@@ -1,11 +1,11 @@
-.App {
+.app {
     flex: 1;
     background-size: cover;
     background-image: url("assets/background.jpg");
     background-repeat: repeat-y;
 }
 
-.Header {
+.header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -13,77 +13,27 @@
     padding-inline: 70px;
 }
 
-.Header-title {
+.header-title {
     color: white;
     font-size: 40px;
     font-family: "Jersey 15", sans-serif;
     font-weight: 400;
     font-style: normal;
+    text-shadow: 2px 2px 3px darkgoldenrod;
 }
 
-.Header-text {
+.header-text {
     color: white;
     font-size: 40px;
     font-family: "Jersey 15", sans-serif;
     font-weight: 400;
     font-style: normal;
+    text-shadow: 2px 2px 3px darkgoldenrod;
 }
 
-.Header-sectionBar {
+.header-sectionBar {
     display: flex;
     width: 350px;
     flex-direction: row;
     justify-content: space-between;
-}
-
-.Section {
-    flex: 1;
-    padding-top: 50px;
-}
-
-.Title {
-    color: white;
-    font-size: 60px;
-    font-family: "Jersey 15", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.About-Container{
-    display: flex;
-    flex-direction: column;
-    max-width: 1000px;
-}
-
-.About-image {
-    height: 70vh;
-    width: auto;
-}
-
-.Work-image {
-    height: 80vh;
-    width: auto;
-}
-
-.Contact-image {
-    height: 90vh;
-    width: auto;
-}
-
-.Gif {
-    height: 50px;
-    width: 120px;
-    border-radius: 100px;
-    object-fit: cover;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: -10px;
-}
-
-.Text {
-    color: white;
-    font-size: 40px;
-    font-family: "Rajdhani", sans-serif;
-    font-weight: 400;
-    font-style: normal;
 }

@@ -1,0 +1,67 @@
+.contact {
+    flex: 1;
+    padding-top: 70px;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 1300px;
+    padding: 5px;
+}
+
+.contact-image {
+    height: 70vh;
+    width: auto;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 500px;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 100px;
+    margin-inline: 70px;
+    margin-block: 50px;
+}
+
+.button-icon {
+    height: 45px;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.blue-bg {
+    background-color: #D4EAFF;
+    box-shadow: 4px 4px 7px #5067FF;
+}
+
+.pink-bg {
+    background-color: #FDB2FF;
+    box-shadow: 4px 4px 7px #E640E6;
+}
+
+.button-text {
+    color: #5067FF;
+    font-family: "Jersey 15", sans-serif;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.blue {
+    color: #5067FF;
+}
+
+.pink {
+    color: #E640E6;
+}
