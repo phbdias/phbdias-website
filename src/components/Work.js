@@ -2,25 +2,46 @@ import "./Work.css";
 import { Col, Row } from "antd";
 
 import bulleagle_work from "../assets/bulleagle-work.png";
+import defyme from "../assets/defyme.png";
+import nova_fct from "../assets/nova-fct.jpeg";
+import step_nologo from "../assets/step+nologo.png";
+import unipartner from "../assets/unipartner.png";
 
 function Work() {
   return (
     <Row className="work">
-      <Col
-        style={{
-          flexGrow: 1,
-        }}
-      >
+      <Col>
         <img src={bulleagle_work} alt={bulleagle_work} className="work-image" />
       </Col>
       <Col className="work-container">
-        <text className="text">
-          Welcome aboard! My name is Paulo Dias and I'm on a mission to
-          establish Web3 as the new internet standard. I came from the Azores,
-          famously known as the Land of Happy Cows. In my spare time, I'm into
-          sports, especially football — I'm a huge Benfica fan. You might also
-          catch me at the gym, running outdoors, or mountain surfing.
-        </text>
+        <Row className="work-row">
+          <Col className="work-specs work-col">
+            <img src={defyme} alt={defyme} className="work-logo" />
+            <p className="work-text">Co-Founder & Blockchain Engineer</p>
+            <p className="work-text">2020-Present</p>
+          </Col>
+          <Col className="work-col"/>
+          <Col className="work-specs work-col">
+            <img src={step_nologo} alt={step_nologo} className="work-logo" />
+            <p className="work-text">Lead Blockchain Engineer</p>
+            <p className="work-text">2023-2024</p>
+          </Col>
+          <Col className="work-col"/>
+        </Row>
+        <Row className="work-row">
+          <Col className="work-col"/>
+          <Col className="work-specs work-col">
+            <img src={nova_fct} alt={nova_fct} className="work-logo" />
+            <p className="work-text">Teaching Assistant</p>
+            <p className="work-text">2017-2020</p>
+          </Col>
+          <Col className="work-col"/>
+          <Col className="work-specs work-col">
+            <img src={unipartner} alt={bulleagle_work} className="work-logo" />
+            <p className="work-text">Associate Software Engineer</p>
+            <p className="work-text">2017</p>
+          </Col>
+        </Row>
       </Col>
     </Row>
   );
