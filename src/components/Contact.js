@@ -22,7 +22,7 @@ function Contact() {
           <text className="contact-title">
             Now you want my services and you don't know how to reach me...
           </text>
-          <Row>
+          <Row style={{ justifyContent: "space-evenly" }}>
             <a
               href="https://linkedin.com/in/phbdias"
               target="_blank"
@@ -38,14 +38,18 @@ function Contact() {
               target="_blank"
               rel="noreferrer"
             >
-              {" "}
               <Col className="button pink-bg">
                 <img src={github} alt={github} className="button-icon" />
                 <text className="button-text pink">Visit my GitHub</text>
               </Col>
             </a>
           </Row>
-          <Row style={{ flexDirection: "row-reverse" }}>
+          <Row
+            style={{
+              flexDirection: "row-reverse",
+              justifyContent: "space-evenly",
+            }}
+          >
             <a href="/PauloDiasCV.pdf" target="_blank" rel="noreferrer">
               <Col className="button blue-bg">
                 <img src={cv} alt={cv} className="button-icon" />
