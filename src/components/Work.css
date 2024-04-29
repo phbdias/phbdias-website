@@ -1,6 +1,6 @@
 .work {
     flex: 1;
-    padding-top: 70px;
+    padding-block: 10vh;
     justify-content: space-evenly;
     align-items: center;
 }

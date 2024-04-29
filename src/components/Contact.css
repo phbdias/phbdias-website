@@ -1,9 +1,20 @@
 .contact {
     flex: 1;
-    padding-top: 70px;
     flex-direction: row-reverse;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.contact-title {
+    color: white;
+    font-size: 40px;
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 2px 2px 3px darkgoldenrod;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 150px;
 }
 
 .contact-container {
@@ -15,8 +26,9 @@
 }
 
 .contact-image {
-    height: 70vh;
+    height: 80vh;
     width: auto;
+    margin-top: 20vh;
 }
 
 .button {
@@ -28,7 +40,7 @@
     align-items: center;
     border-radius: 100px;
     margin-inline: 70px;
-    margin-block: 50px;
+    margin-block: 30px;
 }
 
 .button-icon {
@@ -40,12 +52,12 @@
 
 .blue-bg {
     background-color: #D4EAFF;
-    box-shadow: 4px 4px 7px #5067FF;
+    box-shadow: 1px 1px 7px #5067FF, -1px -1px 7px #5067FF, -1px 1px 7px #5067FF, 1px -1px 7px #5067FF;
 }
 
 .pink-bg {
     background-color: #FDB2FF;
-    box-shadow: 4px 4px 7px #E640E6;
+    box-shadow: 1px 1px 7px #E640E6, -1px -1px 7px #E640E6, -1px 1px 7px #E640E6, 1px -1px 7px #E640E6;
 }
 
 .button-text {
