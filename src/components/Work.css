@@ -1,37 +1,78 @@
 .work {
-    flex: 1;
+    min-height: 100vh;
     align-items: center;
-    padding-block: 10vh;
+}
+
+.work-image-container {
+    height: auto;
+    @media (min-width: 1024px) {
+        min-width: 400px;
+        max-width: 25vw;
+    }
+    @media (max-width: 1024px) {
+        width: 80vw;
+        max-width: 500px;
+    }
 }
 
 .work-image {
-    height: 80vh;
-    width: auto;
+    width: 100%;
+    height: auto;
 }
 
 .work-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
     flex-grow: 1;
+    min-height: 80vh;
     padding: 5px;
-}
-
-.work-row {
-    flex: 4;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .work-col {
     flex: 1;
+    min-width: 20vh;
+    max-width: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-inline: 3%;
+}
+
+@media (max-width: 1024px) {
+    .work-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .work-col {
+        max-width: 20vh;
+    }
+}
+
+@media (min-width: 1024px) {
+    .col-1 {
+        position: relative;
+        bottom: 15vh;
+    }
+
+    .col-2 {
+        position: relative;
+        bottom: 5vh;
+    }
+
+    .col-3 {
+        position: relative;
+        bottom: -5vh;
+    }
+
+    .col-4 {
+        position: relative;
+        bottom: -15vh;
+    }
 }
 
 .work-logo {
-    height: 30vh;
-    width: 30vh;
+    width: 100%;
+    aspect-ratio: 1;
     border-radius: 50px;
     object-fit: cover;
     margin-inline: 10px;

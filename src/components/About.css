@@ -1,6 +1,5 @@
 .about {
-    flex: 1;
-    padding-top: 70px;
+    min-height: 88vh;
     flex-direction: row-reverse;
     justify-content: space-evenly;
     align-items: center;
@@ -13,11 +12,22 @@
     padding: 5px;
 }
 
+.about-image-container {
+    height: auto;
+    margin-block: 15px;
+    @media (min-width: 1024px) {
+        min-width: 400px;
+        max-width: 25vw;
+    }
+    @media (max-width: 1024px) {
+        width: 80vw;
+        max-width: 500px;
+    }
+}
+
 .about-image {
-    min-height: 400px;
-    max-height: 700px;
-    width: auto;
-    padding: 5px;
+    width: 100%;
+    height: auto;
 }
 
 .gif {
@@ -32,8 +42,11 @@
 .text {
     color: white;
     font-family: "Chakra Petch", sans-serif;
-    font-size: 40px;
+    font-size: 2.2rem;
     font-weight: 400;
     font-style: normal;
     text-shadow: 2px 2px 3px darkgoldenrod;
+    @media (max-width: 1024px) {
+        font-size: 1.2rem;
+    }
 }

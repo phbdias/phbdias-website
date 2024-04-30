@@ -12,7 +12,7 @@ import welcome from "../assets/welcome.webp";
 function About() {
   return (
     <Row className="about">
-      <Col>
+      <Col className="about-image-container">
         <img
           src={bulleagle_framed}
           alt={bulleagle_framed}
@@ -28,7 +28,7 @@ function About() {
           </div>
           <div>
             <text className="text">
-              My name is Paulo Dias and I'm on a mission
+              My name is Paulo Dias, and I'm on a mission
             </text>
             <img src={mission} alt={mission} className="gif" />
             <text className="text">

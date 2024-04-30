@@ -7,14 +7,20 @@
 
 .contact-title {
     color: white;
-    font-size: 40px;
     font-family: "Jersey 15", sans-serif;
     font-weight: 400;
     font-style: normal;
     text-shadow: 2px 2px 3px darkgoldenrod;
     text-align: center;
     width: 100%;
-    margin-bottom: 150px;
+    @media (min-width: 1024px) {
+        font-size: 2.5rem;
+        margin-bottom: 150px;
+    }
+    @media (max-width: 1024px) {
+        font-size: 1.8rem;
+        margin-block: 20px;
+    }
 }
 
 .contact-container {
@@ -25,10 +31,24 @@
     padding: 5px;
 }
 
+.contact-image-container {
+    display: flex;
+    align-items: flex-end;
+    @media (min-width: 1024px) {
+        min-height: 100vh;
+        min-width: 450px;
+        max-width: 27vw;
+    }
+    @media (max-width: 1024px) {
+        width: 80vw;
+        max-width: 500px;
+    }
+}
+
 .contact-image {
-    height: 80vh;
-    width: auto;
-    margin-top: 20vh;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 
 .button {
@@ -41,13 +61,20 @@
     border-radius: 100px;
     margin-block: 30px;
     margin-inline: 5px;
+    @media (max-width: 1024px) {
+        height: 45px;
+        width: 80vw;
+        margin-block: 15px;
+    }
 }
 
 .button-icon {
     height: 45px;
     width: auto;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-inline: 10px;
+    @media (max-width: 1024px) {
+        height: 35px;
+    }
 }
 
 .blue-bg {
@@ -65,9 +92,12 @@
     font-family: "Jersey 15", sans-serif;
     width: 100%;
     text-align: center;
-    font-size: 35px;
+    font-size: 2rem;
     font-weight: 500;
     font-style: normal;
+    @media (max-width: 1024px) {
+        font-size: 1.5rem;
+    }
 }
 
 .blue {

@@ -10,8 +10,8 @@ import mail from "../assets/mail.png";
 function Contact() {
   return (
     <contact>
-      <Row className="contact">
-        <Col>
+      <Row className="contact" id="contact">
+        <Col className="contact-image-container">
           <img
             src={bulleagle_contact}
             alt={bulleagle_contact}
