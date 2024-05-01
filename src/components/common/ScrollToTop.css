@@ -1,0 +1,22 @@
+.scrollup-container {
+  padding: 10px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 99999;
+  background: #8d72a6;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px #1A032F;
+
+  &:hover,
+  &:active,
+  &:focus {
+    filter: brightness(70%);
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 900px) {
+    display: none;
+  }
+}
+
