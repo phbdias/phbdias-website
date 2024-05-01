@@ -42,19 +42,26 @@ function Header() {
         onClick={toggleButton}
       />
       <Drawer
+        autoFocus={false}
         closable={false}
         open={visible}
         onClose={toggleButton}
         width={300}
-        style={{ backgroundColor: "#0C032F" }}
+        style={{ backgroundColor: "#0C032F", paddingTop: "1.5em" }}
       >
         <Row>
-          <text className="header-text text-centered margin-vertical" onClick={() => scrollTo("about")}>
+          <text
+            className="header-text text-centered margin-vertical"
+            onClick={() => scrollTo("about")}
+          >
             About
           </text>
         </Row>
         <Row>
-          <text className="header-text text-centered margin-vertical" onClick={() => scrollTo("work")}>
+          <text
+            className="header-text text-centered margin-vertical"
+            onClick={() => scrollTo("work")}
+          >
             Work
           </text>
         </Row>
