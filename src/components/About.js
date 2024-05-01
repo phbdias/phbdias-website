@@ -28,11 +28,11 @@ function About() {
           </div>
           <div>
             <text className="text">
-              My name is Paulo Dias, and I'm on a mission
+              My name is Paulo Dias, and I'm on this mission
             </text>
             <img src={mission} alt={mission} className="gif" />
             <text className="text">
-              to establish Web3 as the new internet standard.
+              of establishing Web3 as the new internet standard.
             </text>
           </div>
           <div>
