@@ -70,6 +70,11 @@
     }
 }
 
+.work-specs {
+    align-items: center;
+    margin-block: 15px;
+}
+
 .work-logo {
     width: 100%;
     aspect-ratio: 1;
@@ -77,11 +82,6 @@
     object-fit: cover;
     margin-inline: 10px;
     margin-block: 10px;
-}
-
-.work-specs {
-    align-items: center;
-    margin-block: 15px;
 }
 
 .work-text {
@@ -92,4 +92,110 @@
     font-style: normal;
     text-shadow: 2px 2px 3px darkgoldenrod;
     text-align: center;
+}
+
+.work-hovered {
+    filter: brightness(80%) grayscale(80%);
+    cursor: pointer;
+    transform: scale3d(1.03, 1.02, 1);
+    transition: all .2s ease-in;
+}
+
+.modal-body {
+    background-color: #E9E9E9;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.modal-header {
+    display: none;
+}
+
+.modal-image {
+    width: 100%;
+    height: auto;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-inline: 15px;
+    padding-block: 10px;
+}
+
+.row-with-space-between {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.modal-content-title {
+    color: #1A032F;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    @media (max-width: 1024px) {
+        font-size: 0.9rem;
+    }
+}
+
+.modal-content-subtitle {
+    color: #1A032F;
+    color: rgba(26, 3, 47, 0.5);
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    @media (max-width: 1024px) {
+        font-size: 0.8rem;
+    }
+}
+
+.modal-content-text {
+    color: #1A032F;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    @media (max-width: 1024px) {
+        font-size: 0.7rem;
+    }
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #8d72a6;
+}
+
+.footer-button {
+    display: flex;
+    flex-grow: 1;
+    background-color: #1A032F;
+    align-items: center;
+    justify-content: center;
+    transition: all .2s ease-in;
+
+    &:hover{
+        background-color: #8d72a6;
+        cursor: pointer;
+    }
+}
+
+.footer a:first-child {
+    border-right: 1px solid rgba(180, 161, 198, 0.30);
+}
+
+.footer-button-text {
+    color: white;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.15rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    @media (max-width: 1024px) {
+        font-size: 0.8rem;
+    }
 }

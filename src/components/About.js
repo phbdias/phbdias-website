@@ -1,4 +1,3 @@
-import "./About.css";
 import { Col, Row } from "antd";
 
 import azores from "../assets/azores-flag.webp";
@@ -8,6 +7,8 @@ import happy_cows from "../assets/happy-cows.webp";
 import mission from "../assets/mission.webp";
 import snowboard from "../assets/snowboard.gif";
 import welcome from "../assets/welcome.webp";
+
+import "./About.css";
 
 function About() {
   return (

@@ -1,7 +1,8 @@
-import "./ScrollToTop.css";
-
 import { useCallback, useEffect, useState } from "react";
+
 import scroll_top from "../../assets/scroll-top.svg";
+
+import "./ScrollToTop.css";
 
 const ScrollToTop = () => {
   const [showScroll, setShowScroll] = useState(false);

@@ -3,6 +3,9 @@
     flex-direction: row-reverse;
     justify-content: space-evenly;
     align-items: center;
+    @media (max-width: 1024px) {
+        padding: 1rem;
+    }
 }
 
 .contact-title {
@@ -61,10 +64,18 @@
     border-radius: 100px;
     margin-block: 30px;
     margin-inline: 5px;
+    transition: all .15s ease-in;
+
     @media (max-width: 1024px) {
         height: 45px;
         width: 80vw;
         margin-block: 15px;
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+        transform: scale3d(1.03, 1.02, 1)
     }
 }
 
