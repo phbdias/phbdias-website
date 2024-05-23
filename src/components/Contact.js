@@ -1,4 +1,3 @@
-import "./Contact.css";
 import { Col, Row } from "antd";
 
 import bulleagle_contact from "../assets/bulleagle-contact.png";
@@ -6,6 +5,8 @@ import cv from "../assets/cv.png";
 import github from "../assets/github.png";
 import linkedin from "../assets/linkedin.png";
 import mail from "../assets/mail.png";
+
+import "./Contact.css";
 
 function Contact() {
   return (

@@ -1,8 +1,9 @@
-import "./Header.css";
 import { Col, Drawer, Row } from "antd";
 
 import menu from "../assets/menu.png";
 import { useState } from "react";
+
+import "./Header.css";
 
 function Header() {
   const [visible, setVisibility] = useState(false);
@@ -46,8 +47,10 @@ function Header() {
         closable={false}
         open={visible}
         onClose={toggleButton}
-        width={300}
-        style={{ backgroundColor: "#0C032F", paddingTop: "1.5em" }}
+        placement="top"
+        footer={null}
+        height={250}
+        style={{ backgroundColor: "#0C032F"}}
       >
         <Row>
           <text
