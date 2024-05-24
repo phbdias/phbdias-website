@@ -22,42 +22,26 @@ function About() {
       </Col>
       <Col>
         <div className="about-container">
-          <div>
-            <text className="text">Welcome</text>
-            <img src={welcome} alt={welcome} className="gif" />
-            <text className="text">aboard!{"\n\n"}</text>
-          </div>
-          <div>
-            <text className="text">
-              My name is Paulo Dias, and I'm on this mission
-            </text>
-            <img src={mission} alt={mission} className="gif" />
-            <text className="text">
-              of establishing Web3 as the new internet standard.
-            </text>
-          </div>
-          <div>
-            <text className="text">I come from the Azores</text>
-            <img src={azores} alt={azores} className="gif" />
-            <text className="text">
-              , famously known as the Land of Happy Cows
-            </text>
-            <img src={happy_cows} alt={happy_cows} className="gif" />
-            <text className="text">.</text>
-          </div>
-          <div>
-            <text className="text">
-              In my spare time, I'm into sports, especially football — I'm a
-              huge Benfica fan
-            </text>
-            <img src={benfica} alt={benfica} className="gif" />
-            <text className="text">
-              . You might also catch me at the gym, running outdoors, or
-              mountain surfing
-            </text>
-            <img src={snowboard} alt={snowboard} className="gif" />
-            <text className="text">.</text>
-          </div>
+          <p className="text">
+            Welcome <img src={welcome} alt={welcome} className="gif" /> aboard!
+          </p>
+          <p className="text">
+            My name is Paulo Dias, and I'm on this mission{" "}
+            <img src={mission} alt={mission} className="gif" /> of establishing
+            Web3 as the new internet standard.
+          </p>
+          <p className="text">
+            I come from the Azores{" "}
+            <img src={azores} alt={azores} className="gif" /> , famously known
+            as the Land of Happy Cows{" "}
+            <img src={happy_cows} alt={happy_cows} className="gif" /> .
+          </p>
+          <p className="text">
+            In my spare time, I'm into sports, especially football — I'm a huge
+            Benfica fan <img src={benfica} alt={benfica} className="gif" /> .
+            You might also catch me at the gym, running outdoors, or mountain
+            surfing <img src={snowboard} alt={snowboard} className="gif" /> .
+          </p>
         </div>
       </Col>
     </Row>

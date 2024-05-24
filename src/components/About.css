@@ -35,7 +35,6 @@
     width: 100px;
     border-radius: 100px;
     object-fit: cover;
-    margin-inline: 10px;
     margin-bottom: -10px;
     @media (max-width: 1024px) {
         height: 1.5rem;
