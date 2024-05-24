@@ -125,6 +125,20 @@ const JobModal = ({ clickProps, company, link, period, src, text, title }) => {
 
 const jobs = [
   {
+    company: "NoLogo",
+    imgSrc: stepchain_screens,
+    link: "https://nologo.dev/",
+    logoSrc: step_nologo,
+    period: "January 2023 - April 2024",
+    text: [
+      "I led the development of both front-end and blockchain components for StepChain, a mobile app created in partnership with NoLogo.",
+      "• Responsible for the Walk-to-Earn reward model and the referral system, both designed with Solidity",
+      "• Developed the mobile app in React Native, based on Figma designs",
+    ],
+    title: "Lead Blockchain Engineer",
+    years: "2023-2024",
+  },
+  {
     company: "DEFYME",
     imgSrc: defyme_screens,
     link: "https://defyme.io/",
@@ -142,27 +156,13 @@ const jobs = [
     years: "2020-Present",
   },
   {
-    company: "NoLogo",
-    imgSrc: stepchain_screens,
-    link: "https://nologo.dev/",
-    logoSrc: step_nologo,
-    period: "January 2023 - April 2024",
-    text: [
-      "I led the development of both front-end and blockchain components for StepChain, a mobile app created in partnership with NoLogo.",
-      "• Responsible for the Walk-to-Earn reward model and the referral system, both designed with Solidity",
-      "• Developed the mobile app in React Native, based on Figma designs",
-    ],
-    title: "Lead Blockchain Engineer",
-    years: "2023-2024",
-  },
-  {
     company: "NOVA FCT",
     imgSrc: di_fct,
     link: "https://www.fct.unl.pt/",
     logoSrc: nova_fct,
     period: "September 2017 - June 2020",
     text: [
-      "I was selected for multiple research scholarships, which led me to teach lab classes for a total of 5 semesters. Throughout that period, I taught 3 different subjects:",
+      "My university selected me for multiple research scholarships, which led me to teach lab classes for five continuous semesters. Throughout that period, I taught three different subjects:",
       "• Algorithms and Data Structures",
       "• Introduction to Programming",
       "• Introduction to Databases",

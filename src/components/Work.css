@@ -78,10 +78,11 @@
 .work-logo {
     width: 100%;
     aspect-ratio: 1;
-    border-radius: 50px;
+    border-radius: 80px;
     object-fit: cover;
-    margin-inline: 10px;
-    margin-block: 10px;
+    padding-inline: 10px;
+    padding-block: 10px;
+    transition: all .2s ease-in;
 }
 
 .work-text {
@@ -92,13 +93,13 @@
     font-style: normal;
     text-shadow: 2px 2px 3px darkgoldenrod;
     text-align: center;
+    transition: all .2s ease-in;
 }
 
 .work-hovered {
     filter: brightness(80%) grayscale(80%);
     cursor: pointer;
     transform: scale3d(1.03, 1.02, 1);
-    transition: all .2s ease-in;
 }
 
 .modal-body {
