@@ -78,7 +78,7 @@
 .work-logo {
     width: 100%;
     aspect-ratio: 1;
-    border-radius: 80px;
+    border-radius: 30%;
     object-fit: cover;
     padding-inline: 10px;
     padding-block: 10px;
